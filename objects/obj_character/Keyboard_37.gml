@@ -1,9 +1,8 @@
-/// @DnDAction : YoYo Games.Movement.Jump_To_Point
-/// @DnDVersion : 1
-/// @DnDHash : 51E7952F
-/// @DnDArgument : "x" "-4"
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "0"
-/// @DnDArgument : "y_relative" "1"
-x += -4;
-y += 0;
+if(place_free((x-4), 0))
+{
+	x += -4;
+	y += 0;
+}
+
+sprite_index = spr_left;
+image_index = 0;
