@@ -1,4 +1,4 @@
-if(place_free((x+4), 0))
+if(place_free((x+4), 0) && !climbing)
 {
 	x += 4;
 	y += 0;
