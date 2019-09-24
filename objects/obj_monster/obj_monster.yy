@@ -18,7 +18,7 @@
             "id": "baf5161a-f921-4c69-a73d-bd7d8cc5df59",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "fb9d202a-56a4-4d69-b51e-fc0aa2403472",
             "enumb": 0,
             "eventtype": 4,
@@ -28,7 +28,7 @@
             "id": "89e5cc62-5670-4658-b2c5-6bc0631e57af",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 2,
             "eventtype": 3,
@@ -42,6 +42,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 1,
+            "m_owner": "1db00ced-0506-499f-b699-983e0dc2f69a"
+        },
+        {
+            "id": "17daac34-e8f1-41ba-becd-06132e6b2af0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "87da6b25-10e7-4365-a10c-955218d5694f",
+            "enumb": 0,
+            "eventtype": 4,
             "m_owner": "1db00ced-0506-499f-b699-983e0dc2f69a"
         }
     ],
@@ -61,7 +71,36 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "56ccfcbb-0b9b-4b03-a788-798882eec693",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 2,
+            "value": "spr_monsterl",
+            "varName": "sprite_left",
+            "varType": 5
+        },
+        {
+            "id": "8bcf83e5-4012-478f-a052-e01b7c8d547e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 2,
+            "value": "spr_monsterr",
+            "varName": "sprite_right",
+            "varType": 5
+        }
+    ],
     "solid": false,
     "spriteId": "398d8701-9f8d-42c5-9ed3-a5ca876952db",
     "visible": true

@@ -11,3 +11,5 @@ if(vspeed > 12)
 {
 	vspeed = 12;	
 }
+
+//show_debug_message("vspeed: " + string(vspeed));
