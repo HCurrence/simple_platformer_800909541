@@ -1,4 +1,4 @@
-if( !place_meeting(x+0, y+1, argument_relative) )
+if( !place_meeting(x, y+1, argument_relative) )
 {
 	gravity = 0.75;	
 }
@@ -12,7 +12,7 @@ if(vspeed > 12)
 	vspeed = 12;	
 }
 
-//show_debug_message("vspeed: " + string(vspeed));
+show_debug_message("vspeed: " + string(vspeed) + ", gravity: " + string(gravity));
 
 if(position_meeting(x, y, obj_ladder))
 {
