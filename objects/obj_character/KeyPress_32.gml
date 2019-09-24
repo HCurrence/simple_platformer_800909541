@@ -1,4 +1,8 @@
-if( !place_empty(x+0, y+1, argument_relative) )
+if( !place_meeting(x+0, y+1, argument_relative) )
 {
-	vspeed -= 4;
+	vspeed -= 10.5;
+}
+else
+{
+	vspeed = 0;	
 }
