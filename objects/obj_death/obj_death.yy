@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_death",
     "eventList": [
-        
+        {
+            "id": "b4d244be-1858-4f73-902f-d8eac8f7e09e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "c219327a-5b0f-46ab-a29d-dde65e67298c",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "c5ef1833-4029-4450-886a-4f92be16a2b0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
