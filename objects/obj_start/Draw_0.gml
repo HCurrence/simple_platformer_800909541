@@ -1,0 +1,1 @@
+draw_text(x, y, "WELCOME to Simple Platformer by Haley Currence! \n Use The directional keys to move! \n Use Space to shoot! \n Enjoy! \n \n Press Enter to start.\n When in-game: Use F10 to restart. Use F4 to Restart.");

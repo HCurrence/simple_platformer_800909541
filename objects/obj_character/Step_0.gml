@@ -1,4 +1,4 @@
-if( !place_meeting(x, y+1, argument_relative) )
+if( !place_meeting(x, y+1, obj_block) )
 {
 	gravity = 0.75;	
 }
