@@ -1,8 +1,10 @@
-if( !place_meeting(x+0, y+1, argument_relative) )
+if(ammo >= 1)
 {
-	vspeed -= 10.5;
-}
-else
-{
-	vspeed = 0;	
+	instance_create_layer(x, y, "Instances", obj_bullet);
+	obj_bullet.hspeed = bullet_speed;
+	
+	ammo -= 1;
+	
+	canShoot = false;
+	alarm[0] = 3;
 }

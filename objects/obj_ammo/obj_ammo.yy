@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_ammo",
     "eventList": [
-        
+        {
+            "id": "3f99b44b-fa70-4fef-9f62-29c512002259",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "c219327a-5b0f-46ab-a29d-dde65e67298c",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "1ef7cf29-854c-445e-92d5-b102385bd527"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
