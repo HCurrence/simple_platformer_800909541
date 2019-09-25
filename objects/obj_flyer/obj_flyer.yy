@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_flyer",
     "eventList": [
-        
+        {
+            "id": "784c54a7-64d6-4530-8038-e92f257c6b37",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "c39ec065-8f5c-4d3b-833b-75f3ad598367"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

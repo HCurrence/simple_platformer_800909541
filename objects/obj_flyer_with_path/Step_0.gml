@@ -9,6 +9,6 @@ if( distance_to_object(obj_character) < 45)
 
 if(!onPath)
 {
-	path_start(path0, 10, path_action_restart, true);
+	path_start(path, 10, path_action_restart, true);
 	onPath = true;
 }
